@@ -1,10 +1,25 @@
-body {
+#indexBody {
     text-align: center;
+    position: relative;
+    margin: 10%;
+}
+
+#backButton {
+    position:fixed;
+    left:3%;
+    top:3%;
+}
+
+.btn:hover {
+    transition: all 0.2s ease-in-out;
+    color: rgb(81, 111, 132);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 .badForm {
     width: 50%;
     margin: 5% auto auto;
+    text-align: center;
 }
 
 #birthday {

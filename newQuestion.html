@@ -18,8 +18,16 @@
               type = "text/css"
               href = "style.css" />
 
+        <script>
+            function goBack() {
+                window.history.back()
+            }
+        </script>
+
     </head>
     <body>
+
+        <a href="index.html" id="backButton" class="btn btn-primary">Home</a>
 
         <form action="questionPHP.php" method="post" class="badForm">
             <div class="form-group">
@@ -36,7 +44,7 @@
             <div>
                 <label for="skills">Skills</label>
                 <br>
-                <select required name="skills[]" id="skills" size="2" multiple>
+                <select required name="skills[]" id="skills" size="3" multiple>
                     <option value="php">PHP</option>
                     <option value="html5">HTML5</option>
                     <option value="css3">CSS3</option>
@@ -45,7 +53,8 @@
             </div>
             <br><br>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-primary" type="reset" value="Reset">Reset</button>
         </form>
 
     </body>

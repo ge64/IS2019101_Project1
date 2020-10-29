@@ -18,8 +18,16 @@
               type = "text/css"
               href = "style.css" />
 
+        <script>
+            function goBack() {
+                window.history.back()
+            }
+        </script>
+
     </head>
     <body>
+
+        <a href="index.html" id="backButton" class="btn btn-primary">Home</a>
 
         <form action="registrationPHP.php" method="post" class="badForm">
             <div class="form-group">
@@ -47,7 +55,8 @@
                 <input required type="password" name="password" id="password" class="form-control" placeholder="Password">
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button class="btn btn-primary" type="submit">Submit</button>
+            <button class="btn btn-primary" type="reset" value="Reset">Reset</button>
         </form>
 
     </body>
