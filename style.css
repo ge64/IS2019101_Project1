@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+}
+
+.badForm {
+    width: 50%;
+    margin: 5% auto auto;
+}
+
+#birthday {
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
