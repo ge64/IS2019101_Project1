@@ -10,10 +10,17 @@
     top:3%;
 }
 
-.btn:hover {
+.btn-link {
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(0, 123, 254);
+}
+
+.btn-link:hover {
     transition: all 0.2s ease-in-out;
-    color: rgb(81, 111, 132);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+    color: white;
+    background-color: #0056b2;
+    box-shadow: 0 5px 15px rgb(81, 111, 131);
 }
 
 .badForm {
