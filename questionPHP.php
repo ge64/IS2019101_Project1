@@ -24,7 +24,7 @@ if(isset($_POST['skills'])) {
 ?>
 
 
-<html>
+<html lang="en">
     <head>
         <title>Echo - New Question</title>
     </head>

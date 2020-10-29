@@ -15,7 +15,7 @@ elseif(strlen($password) < 8) {
 
 ?>
 
-<html>
+<html lang="en">
     <head>
         <title>Echo - Login Page</title>
     </head>
